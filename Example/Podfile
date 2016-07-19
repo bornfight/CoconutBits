@@ -1,0 +1,7 @@
+use_frameworks!
+target 'EssentialPod_Tests' do
+  pod 'EssentialPod', :path => '../'
+  
+  pod 'Quick', '~> 0.8'
+  pod 'Nimble', '~> 3.0'
+end
