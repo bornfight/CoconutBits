@@ -59,6 +59,7 @@
 		75496DAB1D3E21310086A780 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75496DAA1D3E21310086A780 /* Rotation.swift */; };
 		75496DAD1D3E217B0086A780 /* Instatiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75496DAC1D3E217B0086A780 /* Instatiate.swift */; };
 		75496DAF1D3E22FF0086A780 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75496DAE1D3E22FF0086A780 /* Alert.swift */; };
+		75496DB11D3E2BF90086A780 /* LockTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75496DB01D3E2BF90086A780 /* LockTableView.swift */; };
 		76874100B287F51064F2D7293E9A8179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		7734BABBECE0071CF5D4430515B938BF /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93FA4667205AEE386C8648ABDC57E /* BeCloseTo.swift */; };
 		775646739B95E828ECE349F6A39534F4 /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E85327D01378E8AB714335E9E7CE7F /* NimbleEnvironment.swift */; };
@@ -191,6 +192,7 @@
 		75496DAA1D3E21310086A780 /* Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
 		75496DAC1D3E217B0086A780 /* Instatiate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instatiate.swift; sourceTree = "<group>"; };
 		75496DAE1D3E22FF0086A780 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		75496DB01D3E2BF90086A780 /* LockTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockTableView.swift; sourceTree = "<group>"; };
 		75752235C59671F25A86BF987E354AFE /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
 		7EB79662DFF8CAC9A93BB403631D5490 /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/Quick/Quick.h; sourceTree = "<group>"; };
 		7F8A94003B286564D3392FA71BDD51FA /* Pods_EssentialPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EssentialPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -452,6 +454,7 @@
 				75496DAA1D3E21310086A780 /* Rotation.swift */,
 				75496DAC1D3E217B0086A780 /* Instatiate.swift */,
 				75496DAE1D3E22FF0086A780 /* Alert.swift */,
+				75496DB01D3E2BF90086A780 /* LockTableView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -751,6 +754,7 @@
 			files = (
 				75496DAB1D3E21310086A780 /* Rotation.swift in Sources */,
 				75496DAD1D3E217B0086A780 /* Instatiate.swift in Sources */,
+				75496DB11D3E2BF90086A780 /* LockTableView.swift in Sources */,
 				8BA0E372888870FA1A60A46C5A68AF11 /* EssentialPod-dummy.m in Sources */,
 				75496DA71D3E202A0086A780 /* HexColor.swift in Sources */,
 				75496DA51D3E1F810086A780 /* ReusingAndDequeueing.swift in Sources */,
