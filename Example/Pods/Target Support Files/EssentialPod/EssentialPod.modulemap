@@ -1,0 +1,6 @@
+framework module EssentialPod {
+  umbrella header "EssentialPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

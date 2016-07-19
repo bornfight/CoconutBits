@@ -1,0 +1,22 @@
+PODS:
+  - EssentialPod (0.1.0)
+  - Nimble (3.2.0)
+  - Quick (0.9.2)
+
+DEPENDENCIES:
+  - EssentialPod (from `../`)
+  - Nimble (~> 3.0)
+  - Quick (~> 0.8)
+
+EXTERNAL SOURCES:
+  EssentialPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EssentialPod: 07c55c562d019f71ce2a34c39698e943b8385a78
+  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
+
+PODFILE CHECKSUM: c85f634ed45ae6929fc6e0ff7cee50432beb3958
+
+COCOAPODS: 1.0.0
