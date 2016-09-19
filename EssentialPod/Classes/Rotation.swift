@@ -16,7 +16,7 @@ public extension UITableView {
         CATransaction.setDisableActions(true)
         let radians = atan2f(Float(transform.b), Float(transform.a))
         let degrees = Double(radians) * (180 / M_PI)
-        let cellTransform = CGAffineTransformMakeRotation((180 + CGFloat(degrees)) * CGFloat(M_PI)/180)
+        let cellTransform = CGAffineTransform(rotationAngle: (180 + CGFloat(degrees)) * CGFloat(M_PI)/180)
         transform = cellTransform
         CATransaction.commit()
     }
@@ -29,7 +29,7 @@ public extension UITableViewCell {
         CATransaction.setDisableActions(true)
         let radians = atan2f(Float(transform.b), Float(transform.a))
         let degrees = Double(radians) * (180 / M_PI)
-        let cellTransform = CGAffineTransformMakeRotation((180 + CGFloat(degrees)) * CGFloat(M_PI)/180)
+        let cellTransform = CGAffineTransform(rotationAngle: (180 + CGFloat(degrees)) * CGFloat(M_PI)/180)
         transform = cellTransform
         CATransaction.commit()
     }

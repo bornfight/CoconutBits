@@ -12,38 +12,38 @@ import UIKit
 
 public extension UITableViewCell {
     static var defaultReuseIdentifier: String {
-        return String(self)
+        return String(describing: self)
     }
     static var nibName: String {
-        return String(self)
+        return String(describing: self)
     }
 }
 
 
 public extension UICollectionViewCell {
     static var defaultReuseIdentifier: String {
-        return String(self)
+        return String(describing: self)
     }
     static var nibName: String {
-        return String(self)
+        return String(describing: self)
     }
 }
 
 
 public extension UITableView {
-    func registerForReuse<T: UITableViewCell>(cellClassType: T.Type) {
-        self.registerClass(cellClassType, forCellReuseIdentifier: cellClassType.defaultReuseIdentifier)
+    func registerForReuse<T: UITableViewCell>(_ cellClassType: T.Type) {
+        self.register(cellClassType, forCellReuseIdentifier: cellClassType.defaultReuseIdentifier)
     }
     
-    func registerWithNib<T: UITableViewCell>(cellClassType: T.Type) {
-        let bundle = NSBundle(forClass: T.self)
+    func registerWithNib<T: UITableViewCell>(_ cellClassType: T.Type) {
+        let bundle = Bundle(for: T.self)
         let nib = UINib(nibName: T.nibName, bundle: bundle)
         
-        registerNib(nib, forCellReuseIdentifier: T.defaultReuseIdentifier)
+        register(nib, forCellReuseIdentifier: T.defaultReuseIdentifier)
     }
     
     func dequeueReusableCell<T: UITableViewCell>() -> T {
-        guard let cell = self.dequeueReusableCellWithIdentifier(T.defaultReuseIdentifier) as? T else {
+        guard let cell = self.dequeueReusableCell(withIdentifier: T.defaultReuseIdentifier) as? T else {
             fatalError("Could not dequeue cell with identifier: \(T.defaultReuseIdentifier)")
         }
         
@@ -53,19 +53,19 @@ public extension UITableView {
 
 
 public extension UICollectionView {
-    func registerForReuse<T: UICollectionViewCell>(cellClassType: T.Type) {
-        self.registerClass(cellClassType, forCellWithReuseIdentifier: cellClassType.defaultReuseIdentifier)
+    func registerForReuse<T: UICollectionViewCell>(_ cellClassType: T.Type) {
+        self.register(cellClassType, forCellWithReuseIdentifier: cellClassType.defaultReuseIdentifier)
     }
     
-    func registerWithNib<T: UICollectionViewCell>(cellClassType: T.Type) {
-        let bundle = NSBundle(forClass: T.self)
+    func registerWithNib<T: UICollectionViewCell>(_ cellClassType: T.Type) {
+        let bundle = Bundle(for: T.self)
         let nib = UINib(nibName: T.nibName, bundle: bundle)
         
-        registerNib(nib, forCellWithReuseIdentifier: T.defaultReuseIdentifier)
+        register(nib, forCellWithReuseIdentifier: T.defaultReuseIdentifier)
     }
     
-    func dequeueReusableCell<T: UICollectionViewCell>(forIndexPath indexPath: NSIndexPath) -> T {
-        guard let cell = self.dequeueReusableCellWithReuseIdentifier(T.defaultReuseIdentifier, forIndexPath: indexPath) as? T else {
+    func dequeueReusableCell<T: UICollectionViewCell>(forIndexPath indexPath: IndexPath) -> T {
+        guard let cell = self.dequeueReusableCell(withReuseIdentifier: T.defaultReuseIdentifier, for: indexPath) as? T else {
             fatalError("Could not dequeue cell with identifier: \(T.defaultReuseIdentifier)")
         }
         

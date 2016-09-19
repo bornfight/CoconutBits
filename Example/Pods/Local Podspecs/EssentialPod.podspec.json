@@ -1,6 +1,6 @@
 {
   "name": "EssentialPod",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "A short description of EssentialPod.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/<GITHUB_USERNAME>/EssentialPod",
@@ -12,8 +12,8 @@
     "fajdof": "fajdof@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/EssentialPod.git",
-    "tag": "0.1.0"
+    "git": "https://fajdof@bitbucket.org/degordianmobile/essentialpod.git",
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"

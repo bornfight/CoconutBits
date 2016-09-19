@@ -13,19 +13,19 @@ import UIKit
 public extension UITableView {
     
     func lockTableIfNecessary() {
-        let cellRect = self.rectForRowAtIndexPath(self.lastIndexPath())
+        let cellRect = self.rectForRow(at: self.lastIndexPath())
         if self.bounds.contains(cellRect) {
-            self.scrollEnabled = false
+            self.isScrollEnabled = false
         } else {
-            self.scrollEnabled = true
+            self.isScrollEnabled = true
         }
     }
     
-    private func lastIndexPath() -> NSIndexPath {
+    fileprivate func lastIndexPath() -> IndexPath {
         let section = self.numberOfSections > 0 ? self.numberOfSections - 1 : 0
-        let row = self.numberOfRowsInSection(section) > 0 ? self.numberOfRowsInSection(section) - 1 : 0
+        let row = self.numberOfRows(inSection: section) > 0 ? self.numberOfRows(inSection: section) - 1 : 0
         
-        return NSIndexPath(forRow: row, inSection: section)
+        return IndexPath(row: row, section: section)
     }
     
 }
