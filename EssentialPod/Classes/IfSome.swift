@@ -18,7 +18,7 @@ public extension Optional {
         }
     }
     
-    func ifNil(_ handler: (Wrapped) -> Void) {
+    func ifNil(_ handler: () -> Void) {
         switch self {
         case .none(let wrapped): return handler(wrapped)
         case .some: break
