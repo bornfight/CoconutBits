@@ -20,7 +20,6 @@
 		B8A6B798B713678DB86F07D028D2741B /* ReusingAndDequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544AFB0E875B2BDA0970A7ADE5CF30F /* ReusingAndDequeueing.swift */; };
 		C0DFE4314F42967D47F1C0B0B7AFFFDE /* Evaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FFBF04DAC041582AEF10525D8BE3ED /* Evaluation.swift */; };
 		CACDFB38C79296BCF240F474B9742C14 /* Pods-EssentialPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8734979B2752AD2DD40EC21BD5A7EC6B /* Pods-EssentialPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC1F1F201E375DDB0037C8BF /* CollectionOrStringish.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F1F1F1E375DDB0037C8BF /* CollectionOrStringish.swift */; };
 		E59318CA05ACF2C860CFCC6C44487A77 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D736AFD2282649E4A856386398C637 /* Alert.swift */; };
 		E751B73529209925FE44D6CCCC503614 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9BC4217C984BD0F6BBA9CE05007CAE /* HexColor.swift */; };
 		FCAD7E04422EDCF16D5BDDB1E82C1A05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -65,7 +64,6 @@
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2FFBF04DAC041582AEF10525D8BE3ED /* Evaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Evaluation.swift; sourceTree = "<group>"; };
 		D681ACA328A59F87396324534C0E931F /* Pods-EssentialPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EssentialPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DC1F1F1F1E375DDB0037C8BF /* CollectionOrStringish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionOrStringish.swift; sourceTree = "<group>"; };
 		EA9BC4217C984BD0F6BBA9CE05007CAE /* HexColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
 		F712403BC71808198DEBAA6EF3BBF244 /* Rotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				09D736AFD2282649E4A856386398C637 /* Alert.swift */,
-				DC1F1F1F1E375DDB0037C8BF /* CollectionOrStringish.swift */,
 				D2FFBF04DAC041582AEF10525D8BE3ED /* Evaluation.swift */,
 				EA9BC4217C984BD0F6BBA9CE05007CAE /* HexColor.swift */,
 				9E64EA40407D3DCAD74EFC67E893F9A1 /* Instatiate.swift */,
@@ -308,7 +305,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E59318CA05ACF2C860CFCC6C44487A77 /* Alert.swift in Sources */,
-				DC1F1F201E375DDB0037C8BF /* CollectionOrStringish.swift in Sources */,
 				B175272924A836D6198B66980FD64181 /* EssentialPod-dummy.m in Sources */,
 				C0DFE4314F42967D47F1C0B0B7AFFFDE /* Evaluation.swift in Sources */,
 				E751B73529209925FE44D6CCCC503614 /* HexColor.swift in Sources */,
