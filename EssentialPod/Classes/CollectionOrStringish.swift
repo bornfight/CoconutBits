@@ -12,10 +12,10 @@ public protocol _CollectionOrStringish {
     var isEmpty: Bool { get }
 }
 
-public extension String: _CollectionOrStringish { }
-public extension Array: _CollectionOrStringish { }
-public extension Dictionary: _CollectionOrStringish { }
-public extension Set: _CollectionOrStringish { }
+extension String: _CollectionOrStringish { }
+extension Array: _CollectionOrStringish { }
+extension Dictionary: _CollectionOrStringish { }
+extension Set: _CollectionOrStringish { }
 
 public extension Optional where Wrapped: _CollectionOrStringish {
     var isNilOrEmpty: Bool {
