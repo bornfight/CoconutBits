@@ -16,7 +16,7 @@ public extension String {
         return predicate.evaluate(with: self)
     }
     func isValidPhoneNumber() -> Bool {
-        let regexString = "^((\\+)|(00)|(0))[0-9]{6,14}$"
+        let regexString = "^((\\+)|(00)|(0))[0-9]{3,14}$"
         let predicate = NSPredicate(format: "SELF MATCHES %@", regexString)
         return predicate.evaluate(with: self)
     }
