@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Optional {
+public extension Optional {
     /// Applies the supplied transform to the function only if both the
     /// transform and the value are non-nil
     func apply<U>(_ transform: ((Wrapped) -> U)?) -> U? {
