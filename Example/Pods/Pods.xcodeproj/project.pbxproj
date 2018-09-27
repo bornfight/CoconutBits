@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0FB108028B65EB23EFF39EF840925143 /* Pods-EssentialPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A5B0C6D37BC738B307B1389500F2A4 /* Pods-EssentialPod_Tests-dummy.m */; };
 		11A2D599E4C50D8F34D52961C231A603 /* EssentialPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BCC85F38DEEE3A15E1E51475666D8E /* EssentialPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31FFB690215D2BC90049C5BE /* Optional+apply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FFB68F215D2BC90049C5BE /* Optional+apply.swift */; };
 		322F792FF2FDFCD4260D537511EC23A3 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F712403BC71808198DEBAA6EF3BBF244 /* Rotation.swift */; };
 		50425907ED707B23B3BBFDBE90E5B442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		74D067792477142043E6064B67572086 /* LockTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD10B3E289C0D34B142F51085833C25 /* LockTableView.swift */; };
@@ -42,6 +43,7 @@
 		09D736AFD2282649E4A856386398C637 /* Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		234A43F72037CFFCA1334F225CCCFF7A /* Pods-EssentialPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EssentialPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		25F0C539F83612DED14D57189402D5E4 /* EssentialPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EssentialPod-prefix.pch"; sourceTree = "<group>"; };
+		31FFB68F215D2BC90049C5BE /* Optional+apply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+apply.swift"; sourceTree = "<group>"; };
 		3544AFB0E875B2BDA0970A7ADE5CF30F /* ReusingAndDequeueing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReusingAndDequeueing.swift; sourceTree = "<group>"; };
 		3AC12878A43539A181755F509AE586D7 /* EssentialPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EssentialPod.xcconfig; sourceTree = "<group>"; };
 		3FA388900EFBE7AB53A1711655E47219 /* Pods-EssentialPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EssentialPod_Tests.modulemap"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				09D736AFD2282649E4A856386398C637 /* Alert.swift */,
+				31FFB68F215D2BC90049C5BE /* Optional+apply.swift */,
 				D2FFBF04DAC041582AEF10525D8BE3ED /* Evaluation.swift */,
 				EA9BC4217C984BD0F6BBA9CE05007CAE /* HexColor.swift */,
 				9E64EA40407D3DCAD74EFC67E893F9A1 /* Instatiate.swift */,
@@ -310,6 +313,7 @@
 				E751B73529209925FE44D6CCCC503614 /* HexColor.swift in Sources */,
 				80AB18877F9D6FA3EF1E00A52A70FDA4 /* Instatiate.swift in Sources */,
 				74D067792477142043E6064B67572086 /* LockTableView.swift in Sources */,
+				31FFB690215D2BC90049C5BE /* Optional+apply.swift in Sources */,
 				B8A6B798B713678DB86F07D028D2741B /* ReusingAndDequeueing.swift in Sources */,
 				322F792FF2FDFCD4260D537511EC23A3 /* Rotation.swift in Sources */,
 				7510B1E41E3F74C0009E00CE /* Delay.swift in Sources */,
