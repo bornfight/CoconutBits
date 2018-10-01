@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_CoconutBits_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_CoconutBits_TestsVersionString[];
+FOUNDATION_EXPORT double CoconutBitsVersionNumber;
+FOUNDATION_EXPORT const unsigned char CoconutBitsVersionString[];
 

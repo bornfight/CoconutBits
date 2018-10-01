@@ -1,16 +1,16 @@
 PODS:
-  - EssentialPod (0.3.0)
+  - CoconutBits (0.3.5)
 
 DEPENDENCIES:
-  - EssentialPod (from `../`)
+  - CoconutBits (from `../`)
 
 EXTERNAL SOURCES:
-  EssentialPod:
-    :path: ../
+  CoconutBits:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  EssentialPod: be9ba8a353238df2b201ff974da6228d1eb22fe8
+  CoconutBits: 4224b359014bc4af0a60ef8bb9512004e1eef827
 
-PODFILE CHECKSUM: b4c19e7635c059b5a5bd948c0a85ca2c8d7ae648
+PODFILE CHECKSUM: 0bdf5ec7428d528d1d39ed6236df6926e073d77c
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.5.3

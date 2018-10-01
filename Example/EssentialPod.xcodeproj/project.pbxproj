@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2EC29EB7B17C4610CA2AE14 /* Pods_EssentialPod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C53CAB9505F7E83AE6FC87F /* Pods_EssentialPod_Tests.framework */; };
+		C2EC29EB7B17C4610CA2AE14 /* Pods_CoconutBits_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C53CAB9505F7E83AE6FC87F /* Pods_CoconutBits_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27E89F49584858FF1AA3A79E /* Pods-EssentialPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EssentialPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EssentialPod_Tests/Pods-EssentialPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3C53CAB9505F7E83AE6FC87F /* Pods_EssentialPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EssentialPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E89F49584858FF1AA3A79E /* Pods-CoconutBits_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoconutBits_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoconutBits_Tests/Pods-CoconutBits_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C53CAB9505F7E83AE6FC87F /* Pods_CoconutBits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoconutBits_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45666BE862A46AA5055BB16F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5EADCC6F1BC70319BA6A5486 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* EssentialPod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialPod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* CoconutBits_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoconutBits_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0018EAAC34FE08E3554DE7C /* EssentialPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EssentialPod.podspec; path = ../EssentialPod.podspec; sourceTree = "<group>"; };
-		F0E9F5E8C52D806A7AE27A5F /* Pods-EssentialPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EssentialPod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EssentialPod_Tests/Pods-EssentialPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B0018EAAC34FE08E3554DE7C /* CoconutBits.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CoconutBits.podspec; path = ../CoconutBits.podspec; sourceTree = "<group>"; };
+		F0E9F5E8C52D806A7AE27A5F /* Pods-CoconutBits_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoconutBits_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoconutBits_Tests/Pods-CoconutBits_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,7 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2EC29EB7B17C4610CA2AE14 /* Pods_EssentialPod_Tests.framework in Frameworks */,
+				C2EC29EB7B17C4610CA2AE14 /* Pods_CoconutBits_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +36,7 @@
 		39EAA24B6C19E1ECEEF68BEF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3C53CAB9505F7E83AE6FC87F /* Pods_EssentialPod_Tests.framework */,
+				3C53CAB9505F7E83AE6FC87F /* Pods_CoconutBits_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACE51AFB9204008FA782 /* EssentialPod_Tests.xctest */,
+				607FACE51AFB9204008FA782 /* CoconutBits_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +79,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				B0018EAAC34FE08E3554DE7C /* EssentialPod.podspec */,
+				B0018EAAC34FE08E3554DE7C /* CoconutBits.podspec */,
 				45666BE862A46AA5055BB16F /* README.md */,
 				5EADCC6F1BC70319BA6A5486 /* LICENSE */,
 			);
@@ -89,8 +89,8 @@
 		97C4447F575C8105E5EB9095 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				27E89F49584858FF1AA3A79E /* Pods-EssentialPod_Tests.debug.xcconfig */,
-				F0E9F5E8C52D806A7AE27A5F /* Pods-EssentialPod_Tests.release.xcconfig */,
+				27E89F49584858FF1AA3A79E /* Pods-CoconutBits_Tests.debug.xcconfig */,
+				F0E9F5E8C52D806A7AE27A5F /* Pods-CoconutBits_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -98,24 +98,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACE41AFB9204008FA782 /* EssentialPod_Tests */ = {
+		607FACE41AFB9204008FA782 /* CoconutBits_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "EssentialPod_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CoconutBits_Tests" */;
 			buildPhases = (
+				5650253C8F05EF9BBA6070AD /* [CP] Check Pods Manifest.lock */,
 				6AC9133E9B83C82FEC7BF860 /* 📦 Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
 				03B54789D24AC74CBF6A7EE9 /* 📦 Embed Pods Frameworks */,
-				74198B307D16DB2FE7B2ABAA /* 📦 Copy Pods Resources */,
+				E952690273BD142FC7DA92B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = EssentialPod_Tests;
+			name = CoconutBits_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* EssentialPod_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* CoconutBits_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -148,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACE41AFB9204008FA782 /* EssentialPod_Tests */,
+				607FACE41AFB9204008FA782 /* CoconutBits_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -176,7 +177,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EssentialPod_Tests/Pods-EssentialPod_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoconutBits_Tests/Pods-CoconutBits_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5650253C8F05EF9BBA6070AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoconutBits_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6AC9133E9B83C82FEC7BF860 /* 📦 Check Pods Manifest.lock */ = {
@@ -194,19 +217,26 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		74198B307D16DB2FE7B2ABAA /* 📦 Copy Pods Resources */ = {
+		E952690273BD142FC7DA92B0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoconutBits_Tests/Pods-CoconutBits_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CoconutBits/CoconutBits.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoconutBits.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EssentialPod_Tests/Pods-EssentialPod_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoconutBits_Tests/Pods-CoconutBits_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -311,7 +341,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27E89F49584858FF1AA3A79E /* Pods-EssentialPod_Tests.debug.xcconfig */;
+			baseConfigurationReference = 27E89F49584858FF1AA3A79E /* Pods-CoconutBits_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = VR642MLTEZ;
@@ -333,7 +363,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0E9F5E8C52D806A7AE27A5F /* Pods-EssentialPod_Tests.release.xcconfig */;
+			baseConfigurationReference = F0E9F5E8C52D806A7AE27A5F /* Pods-CoconutBits_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = VR642MLTEZ;
@@ -361,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "EssentialPod_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CoconutBits_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

@@ -1,0 +1,22 @@
+{
+  "name": "CoconutBits",
+  "version": "0.3.5",
+  "summary": "A short description of CoconutBits.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CoconutBits",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fajdof": "fajdof@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/degordian/CoconutBits",
+    "tag": "0.3.5"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CoconutBits/Classes/**/*"
+}
