@@ -1,6 +1,6 @@
 //
 //  Optional+isNilOrEmpty.swift
-//  EssentialPod
+//  CoconutBits
 //
 //  Created by Dino on 01/10/2018.
 //
