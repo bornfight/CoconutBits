@@ -20,7 +20,7 @@ public extension Optional {
     
     func ifNil(_ handler: () -> Void) {
         switch self {
-        case .none(let wrapped): return handler(wrapped)
+        case .none: return handler()
         case .some: break
         }
     }

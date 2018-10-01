@@ -15,10 +15,10 @@ public extension UIColor {
         let colorsArray = [r, g, b]
         let hexArray = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f","A","B","C","D","E","F"]
         for color in colorsArray {
-            if color.characters.count > 2 {
+            if color.count > 2 {
                 return nil
             }
-            for character in color.characters {
+            for character in color {
                 if !hexArray.contains(String(character)) {
                     return nil
                 }
