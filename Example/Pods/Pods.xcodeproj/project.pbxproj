@@ -16,6 +16,7 @@
 		7510B1E41E3F74C0009E00CE /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7510B1E31E3F74C0009E00CE /* Delay.swift */; };
 		7510B1E61E3F76CF009E00CE /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7510B1E51E3F76CF009E00CE /* Localize.swift */; };
 		75124DBF1E5348F00035584B /* IfSome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75124DBE1E5348F00035584B /* IfSome.swift */; };
+		75E7E94D21626B4800960FD5 /* Optional+isNilOrEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7E94C21626B4800960FD5 /* Optional+isNilOrEmpty.swift */; };
 		80AB18877F9D6FA3EF1E00A52A70FDA4 /* Instatiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64EA40407D3DCAD74EFC67E893F9A1 /* Instatiate.swift */; };
 		B175272924A836D6198B66980FD64181 /* CoconutBits-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D568EE1224D1BCF7B87A29197B8B968 /* CoconutBits-dummy.m */; };
 		B8A6B798B713678DB86F07D028D2741B /* ReusingAndDequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544AFB0E875B2BDA0970A7ADE5CF30F /* ReusingAndDequeueing.swift */; };
@@ -57,6 +58,7 @@
 		7510B1E31E3F74C0009E00CE /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		7510B1E51E3F76CF009E00CE /* Localize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localize.swift; sourceTree = "<group>"; };
 		75124DBE1E5348F00035584B /* IfSome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IfSome.swift; sourceTree = "<group>"; };
+		75E7E94C21626B4800960FD5 /* Optional+isNilOrEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+isNilOrEmpty.swift"; sourceTree = "<group>"; };
 		8734979B2752AD2DD40EC21BD5A7EC6B /* Pods-CoconutBits_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoconutBits_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8D568EE1224D1BCF7B87A29197B8B968 /* CoconutBits-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoconutBits-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -129,6 +131,7 @@
 			children = (
 				09D736AFD2282649E4A856386398C637 /* Alert.swift */,
 				31FFB68F215D2BC90049C5BE /* Optional+apply.swift */,
+				75E7E94C21626B4800960FD5 /* Optional+isNilOrEmpty.swift */,
 				D2FFBF04DAC041582AEF10525D8BE3ED /* Evaluation.swift */,
 				EA9BC4217C984BD0F6BBA9CE05007CAE /* HexColor.swift */,
 				9E64EA40407D3DCAD74EFC67E893F9A1 /* Instatiate.swift */,
@@ -274,7 +277,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					E27E2E8F18BD06245E70F664B6E31B35 = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -316,6 +324,7 @@
 				31FFB690215D2BC90049C5BE /* Optional+apply.swift in Sources */,
 				B8A6B798B713678DB86F07D028D2741B /* ReusingAndDequeueing.swift in Sources */,
 				322F792FF2FDFCD4260D537511EC23A3 /* Rotation.swift in Sources */,
+				75E7E94D21626B4800960FD5 /* Optional+isNilOrEmpty.swift in Sources */,
 				7510B1E41E3F74C0009E00CE /* Delay.swift in Sources */,
 				75124DBF1E5348F00035584B /* IfSome.swift in Sources */,
 				7510B1E61E3F76CF009E00CE /* Localize.swift in Sources */,
@@ -343,19 +352,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -380,7 +399,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AC12878A43539A181755F509AE586D7 /* CoconutBits.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -401,7 +420,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -412,7 +432,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AC12878A43539A181755F509AE586D7 /* CoconutBits.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -432,7 +452,8 @@
 				PRODUCT_NAME = EssentialPod;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -448,18 +469,28 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -472,6 +503,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -481,7 +513,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D681ACA328A59F87396324534C0E931F /* Pods-CoconutBits_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -515,7 +548,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A346C32BD233546F4A106A0D4B9C378 /* Pods-CoconutBits_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
