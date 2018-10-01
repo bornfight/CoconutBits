@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## EssentialPod
+## CoconutBits
 
 Copyright (c) 2016 fajdof <fajdof@gmail.com>
 

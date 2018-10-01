@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FB108028B65EB23EFF39EF840925143 /* Pods-EssentialPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A5B0C6D37BC738B307B1389500F2A4 /* Pods-EssentialPod_Tests-dummy.m */; };
-		11A2D599E4C50D8F34D52961C231A603 /* EssentialPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BCC85F38DEEE3A15E1E51475666D8E /* EssentialPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FB108028B65EB23EFF39EF840925143 /* Pods-CoconutBits_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A5B0C6D37BC738B307B1389500F2A4 /* Pods-CoconutBits_Tests-dummy.m */; };
+		11A2D599E4C50D8F34D52961C231A603 /* CoconutBits-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BCC85F38DEEE3A15E1E51475666D8E /* CoconutBits-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31FFB690215D2BC90049C5BE /* Optional+apply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FFB68F215D2BC90049C5BE /* Optional+apply.swift */; };
 		322F792FF2FDFCD4260D537511EC23A3 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F712403BC71808198DEBAA6EF3BBF244 /* Rotation.swift */; };
 		50425907ED707B23B3BBFDBE90E5B442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -17,10 +17,10 @@
 		7510B1E61E3F76CF009E00CE /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7510B1E51E3F76CF009E00CE /* Localize.swift */; };
 		75124DBF1E5348F00035584B /* IfSome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75124DBE1E5348F00035584B /* IfSome.swift */; };
 		80AB18877F9D6FA3EF1E00A52A70FDA4 /* Instatiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64EA40407D3DCAD74EFC67E893F9A1 /* Instatiate.swift */; };
-		B175272924A836D6198B66980FD64181 /* EssentialPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D568EE1224D1BCF7B87A29197B8B968 /* EssentialPod-dummy.m */; };
+		B175272924A836D6198B66980FD64181 /* CoconutBits-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D568EE1224D1BCF7B87A29197B8B968 /* CoconutBits-dummy.m */; };
 		B8A6B798B713678DB86F07D028D2741B /* ReusingAndDequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544AFB0E875B2BDA0970A7ADE5CF30F /* ReusingAndDequeueing.swift */; };
 		C0DFE4314F42967D47F1C0B0B7AFFFDE /* Evaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FFBF04DAC041582AEF10525D8BE3ED /* Evaluation.swift */; };
-		CACDFB38C79296BCF240F474B9742C14 /* Pods-EssentialPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8734979B2752AD2DD40EC21BD5A7EC6B /* Pods-EssentialPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CACDFB38C79296BCF240F474B9742C14 /* Pods-CoconutBits_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8734979B2752AD2DD40EC21BD5A7EC6B /* Pods-CoconutBits_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E59318CA05ACF2C860CFCC6C44487A77 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D736AFD2282649E4A856386398C637 /* Alert.swift */; };
 		E751B73529209925FE44D6CCCC503614 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9BC4217C984BD0F6BBA9CE05007CAE /* HexColor.swift */; };
 		FCAD7E04422EDCF16D5BDDB1E82C1A05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -38,34 +38,34 @@
 
 /* Begin PBXFileReference section */
 		021D2072D1CEC40B4F258123BCC6687E /* EssentialPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0311506E34ED829A52660A3AE4C5F019 /* Pods-EssentialPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EssentialPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0501079D5F483747DFD729114F4FE4CB /* Pods-EssentialPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EssentialPod_Tests-resources.sh"; sourceTree = "<group>"; };
+		0311506E34ED829A52660A3AE4C5F019 /* Pods-CoconutBits_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoconutBits_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0501079D5F483747DFD729114F4FE4CB /* Pods-CoconutBits_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoconutBits_Tests-resources.sh"; sourceTree = "<group>"; };
 		09D736AFD2282649E4A856386398C637 /* Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		234A43F72037CFFCA1334F225CCCFF7A /* Pods-EssentialPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EssentialPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		25F0C539F83612DED14D57189402D5E4 /* EssentialPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EssentialPod-prefix.pch"; sourceTree = "<group>"; };
+		234A43F72037CFFCA1334F225CCCFF7A /* Pods-CoconutBits_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoconutBits_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		25F0C539F83612DED14D57189402D5E4 /* CoconutBits-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoconutBits-prefix.pch"; sourceTree = "<group>"; };
 		31FFB68F215D2BC90049C5BE /* Optional+apply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+apply.swift"; sourceTree = "<group>"; };
 		3544AFB0E875B2BDA0970A7ADE5CF30F /* ReusingAndDequeueing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReusingAndDequeueing.swift; sourceTree = "<group>"; };
-		3AC12878A43539A181755F509AE586D7 /* EssentialPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EssentialPod.xcconfig; sourceTree = "<group>"; };
-		3FA388900EFBE7AB53A1711655E47219 /* Pods-EssentialPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EssentialPod_Tests.modulemap"; sourceTree = "<group>"; };
-		43A5B0C6D37BC738B307B1389500F2A4 /* Pods-EssentialPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EssentialPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		3AC12878A43539A181755F509AE586D7 /* CoconutBits.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoconutBits.xcconfig; sourceTree = "<group>"; };
+		3FA388900EFBE7AB53A1711655E47219 /* Pods-CoconutBits_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CoconutBits_Tests.modulemap"; sourceTree = "<group>"; };
+		43A5B0C6D37BC738B307B1389500F2A4 /* Pods-CoconutBits_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoconutBits_Tests-dummy.m"; sourceTree = "<group>"; };
 		46A0192A770D7C21277F9C9408C52990 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DD10B3E289C0D34B142F51085833C25 /* LockTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LockTableView.swift; sourceTree = "<group>"; };
 		59F788EC42B17090B0DD0D74B6351071 /* Pods_EssentialPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EssentialPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		633259F4631774C38BB3F5ECAC8C5CE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A346C32BD233546F4A106A0D4B9C378 /* Pods-EssentialPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EssentialPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6ED04276545F91FBFDFA54C8EDD8C23D /* Pods-EssentialPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EssentialPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6A346C32BD233546F4A106A0D4B9C378 /* Pods-CoconutBits_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoconutBits_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6ED04276545F91FBFDFA54C8EDD8C23D /* Pods-CoconutBits_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = "Pods-CoconutBits_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7510B1E31E3F74C0009E00CE /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		7510B1E51E3F76CF009E00CE /* Localize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localize.swift; sourceTree = "<group>"; };
 		75124DBE1E5348F00035584B /* IfSome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IfSome.swift; sourceTree = "<group>"; };
-		8734979B2752AD2DD40EC21BD5A7EC6B /* Pods-EssentialPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EssentialPod_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8D568EE1224D1BCF7B87A29197B8B968 /* EssentialPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EssentialPod-dummy.m"; sourceTree = "<group>"; };
+		8734979B2752AD2DD40EC21BD5A7EC6B /* Pods-CoconutBits_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoconutBits_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8D568EE1224D1BCF7B87A29197B8B968 /* CoconutBits-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoconutBits-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96BCC85F38DEEE3A15E1E51475666D8E /* EssentialPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EssentialPod-umbrella.h"; sourceTree = "<group>"; };
+		96BCC85F38DEEE3A15E1E51475666D8E /* CoconutBits-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoconutBits-umbrella.h"; sourceTree = "<group>"; };
 		9E64EA40407D3DCAD74EFC67E893F9A1 /* Instatiate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Instatiate.swift; sourceTree = "<group>"; };
-		B88006C5F8D5A6D88713C91C6806F740 /* EssentialPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EssentialPod.modulemap; sourceTree = "<group>"; };
+		B88006C5F8D5A6D88713C91C6806F740 /* CoconutBits.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CoconutBits.modulemap; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2FFBF04DAC041582AEF10525D8BE3ED /* Evaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Evaluation.swift; sourceTree = "<group>"; };
-		D681ACA328A59F87396324534C0E931F /* Pods-EssentialPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EssentialPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D681ACA328A59F87396324534C0E931F /* Pods-CoconutBits_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoconutBits_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EA9BC4217C984BD0F6BBA9CE05007CAE /* HexColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
 		F712403BC71808198DEBAA6EF3BBF244 /* Rotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,28 +90,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0220677F49312C4236D5D49231077110 /* EssentialPod */ = {
+		0220677F49312C4236D5D49231077110 /* CoconutBits */ = {
 			isa = PBXGroup;
 			children = (
-				255BBB98F13A94FFBF565B3AA1059A30 /* EssentialPod */,
+				255BBB98F13A94FFBF565B3AA1059A30 /* CoconutBits */,
 				9B5C46F5BE5661AD3E70A8FB9E1AD91B /* Support Files */,
 			);
-			name = EssentialPod;
+			name = CoconutBits;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		255BBB98F13A94FFBF565B3AA1059A30 /* EssentialPod */ = {
+		255BBB98F13A94FFBF565B3AA1059A30 /* CoconutBits */ = {
 			isa = PBXGroup;
 			children = (
 				4A72F874ED76656B6D24101A5E039E71 /* Classes */,
 			);
-			path = EssentialPod;
+			path = CoconutBits;
 			sourceTree = "<group>";
 		};
 		392B5CCF982B54D57E2B6F22D82CCCDB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				71FD01970159F0998811FD63524F5A13 /* Pods-EssentialPod_Tests */,
+				71FD01970159F0998811FD63524F5A13 /* Pods-CoconutBits_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -142,22 +142,22 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		71FD01970159F0998811FD63524F5A13 /* Pods-EssentialPod_Tests */ = {
+		71FD01970159F0998811FD63524F5A13 /* Pods-CoconutBits_Tests */ = {
 			isa = PBXGroup;
 			children = (
 				46A0192A770D7C21277F9C9408C52990 /* Info.plist */,
-				3FA388900EFBE7AB53A1711655E47219 /* Pods-EssentialPod_Tests.modulemap */,
-				6ED04276545F91FBFDFA54C8EDD8C23D /* Pods-EssentialPod_Tests-acknowledgements.markdown */,
-				234A43F72037CFFCA1334F225CCCFF7A /* Pods-EssentialPod_Tests-acknowledgements.plist */,
-				43A5B0C6D37BC738B307B1389500F2A4 /* Pods-EssentialPod_Tests-dummy.m */,
-				0311506E34ED829A52660A3AE4C5F019 /* Pods-EssentialPod_Tests-frameworks.sh */,
-				0501079D5F483747DFD729114F4FE4CB /* Pods-EssentialPod_Tests-resources.sh */,
-				8734979B2752AD2DD40EC21BD5A7EC6B /* Pods-EssentialPod_Tests-umbrella.h */,
-				6A346C32BD233546F4A106A0D4B9C378 /* Pods-EssentialPod_Tests.debug.xcconfig */,
-				D681ACA328A59F87396324534C0E931F /* Pods-EssentialPod_Tests.release.xcconfig */,
+				3FA388900EFBE7AB53A1711655E47219 /* Pods-CoconutBits_Tests.modulemap */,
+				6ED04276545F91FBFDFA54C8EDD8C23D /* Pods-CoconutBits_Tests-acknowledgements.markdown */,
+				234A43F72037CFFCA1334F225CCCFF7A /* Pods-CoconutBits_Tests-acknowledgements.plist */,
+				43A5B0C6D37BC738B307B1389500F2A4 /* Pods-CoconutBits_Tests-dummy.m */,
+				0311506E34ED829A52660A3AE4C5F019 /* Pods-CoconutBits_Tests-frameworks.sh */,
+				0501079D5F483747DFD729114F4FE4CB /* Pods-CoconutBits_Tests-resources.sh */,
+				8734979B2752AD2DD40EC21BD5A7EC6B /* Pods-CoconutBits_Tests-umbrella.h */,
+				6A346C32BD233546F4A106A0D4B9C378 /* Pods-CoconutBits_Tests.debug.xcconfig */,
+				D681ACA328A59F87396324534C0E931F /* Pods-CoconutBits_Tests.release.xcconfig */,
 			);
-			name = "Pods-EssentialPod_Tests";
-			path = "Target Support Files/Pods-EssentialPod_Tests";
+			name = "Pods-CoconutBits_Tests";
+			path = "Target Support Files/Pods-CoconutBits_Tests";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -183,11 +183,11 @@
 		9B5C46F5BE5661AD3E70A8FB9E1AD91B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B88006C5F8D5A6D88713C91C6806F740 /* EssentialPod.modulemap */,
-				3AC12878A43539A181755F509AE586D7 /* EssentialPod.xcconfig */,
-				8D568EE1224D1BCF7B87A29197B8B968 /* EssentialPod-dummy.m */,
-				25F0C539F83612DED14D57189402D5E4 /* EssentialPod-prefix.pch */,
-				96BCC85F38DEEE3A15E1E51475666D8E /* EssentialPod-umbrella.h */,
+				B88006C5F8D5A6D88713C91C6806F740 /* CoconutBits.modulemap */,
+				3AC12878A43539A181755F509AE586D7 /* CoconutBits.xcconfig */,
+				8D568EE1224D1BCF7B87A29197B8B968 /* CoconutBits-dummy.m */,
+				25F0C539F83612DED14D57189402D5E4 /* CoconutBits-prefix.pch */,
+				96BCC85F38DEEE3A15E1E51475666D8E /* CoconutBits-umbrella.h */,
 				633259F4631774C38BB3F5ECAC8C5CE9 /* Info.plist */,
 			);
 			name = "Support Files";
@@ -205,7 +205,7 @@
 		F854AE484613767A1A34C80A4B722F4F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0220677F49312C4236D5D49231077110 /* EssentialPod */,
+				0220677F49312C4236D5D49231077110 /* CoconutBits */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -217,7 +217,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CACDFB38C79296BCF240F474B9742C14 /* Pods-EssentialPod_Tests-umbrella.h in Headers */,
+				CACDFB38C79296BCF240F474B9742C14 /* Pods-CoconutBits_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,16 +225,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11A2D599E4C50D8F34D52961C231A603 /* EssentialPod-umbrella.h in Headers */,
+				11A2D599E4C50D8F34D52961C231A603 /* CoconutBits-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6B6A0464B3EAA314C584EDA998D46913 /* Pods-EssentialPod_Tests */ = {
+		6B6A0464B3EAA314C584EDA998D46913 /* Pods-CoconutBits_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 040C2C8E2113424E426451909A0286E1 /* Build configuration list for PBXNativeTarget "Pods-EssentialPod_Tests" */;
+			buildConfigurationList = 040C2C8E2113424E426451909A0286E1 /* Build configuration list for PBXNativeTarget "Pods-CoconutBits_Tests" */;
 			buildPhases = (
 				72F1878B88274EEADD34535AE39F85B0 /* Sources */,
 				63E897A6D42B9CDAF70F6D6F2A06A4ED /* Frameworks */,
@@ -245,14 +245,14 @@
 			dependencies = (
 				D26101222C720AFCDE686B4AD2F10C1D /* PBXTargetDependency */,
 			);
-			name = "Pods-EssentialPod_Tests";
+			name = "Pods-CoconutBits_Tests";
 			productName = "Pods-EssentialPod_Tests";
 			productReference = 59F788EC42B17090B0DD0D74B6351071 /* Pods_EssentialPod_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E27E2E8F18BD06245E70F664B6E31B35 /* EssentialPod */ = {
+		E27E2E8F18BD06245E70F664B6E31B35 /* CoconutBits */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0148B68CF803241C01FCFAA4DEF9B256 /* Build configuration list for PBXNativeTarget "EssentialPod" */;
+			buildConfigurationList = 0148B68CF803241C01FCFAA4DEF9B256 /* Build configuration list for PBXNativeTarget "CoconutBits" */;
 			buildPhases = (
 				C682E4308EC045CBE198ECC9848382E8 /* Sources */,
 				EF96C93DB91C1D0D65C9478F3512B352 /* Frameworks */,
@@ -262,7 +262,7 @@
 			);
 			dependencies = (
 			);
-			name = EssentialPod;
+			name = CoconutBits;
 			productName = EssentialPod;
 			productReference = 021D2072D1CEC40B4F258123BCC6687E /* EssentialPod.framework */;
 			productType = "com.apple.product-type.framework";
@@ -288,8 +288,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E27E2E8F18BD06245E70F664B6E31B35 /* EssentialPod */,
-				6B6A0464B3EAA314C584EDA998D46913 /* Pods-EssentialPod_Tests */,
+				E27E2E8F18BD06245E70F664B6E31B35 /* CoconutBits */,
+				6B6A0464B3EAA314C584EDA998D46913 /* Pods-CoconutBits_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -299,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FB108028B65EB23EFF39EF840925143 /* Pods-EssentialPod_Tests-dummy.m in Sources */,
+				0FB108028B65EB23EFF39EF840925143 /* Pods-CoconutBits_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E59318CA05ACF2C860CFCC6C44487A77 /* Alert.swift in Sources */,
-				B175272924A836D6198B66980FD64181 /* EssentialPod-dummy.m in Sources */,
+				B175272924A836D6198B66980FD64181 /* CoconutBits-dummy.m in Sources */,
 				C0DFE4314F42967D47F1C0B0B7AFFFDE /* Evaluation.swift in Sources */,
 				E751B73529209925FE44D6CCCC503614 /* HexColor.swift in Sources */,
 				80AB18877F9D6FA3EF1E00A52A70FDA4 /* Instatiate.swift in Sources */,
@@ -328,7 +328,7 @@
 		D26101222C720AFCDE686B4AD2F10C1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EssentialPod;
-			target = E27E2E8F18BD06245E70F664B6E31B35 /* EssentialPod */;
+			target = E27E2E8F18BD06245E70F664B6E31B35 /* CoconutBits */;
 			targetProxy = 6AD92EABF14C608FCF9A78E6E0B4609A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,7 +378,7 @@
 		};
 		6856FA5E6A057B09CE079F95819B5BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AC12878A43539A181755F509AE586D7 /* EssentialPod.xcconfig */;
+			baseConfigurationReference = 3AC12878A43539A181755F509AE586D7 /* CoconutBits.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -396,6 +396,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EssentialPod/EssentialPod.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.CoconutBits;
 				PRODUCT_NAME = EssentialPod;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -409,7 +410,7 @@
 		};
 		69672F917CD45C38233D548D7B1E60B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AC12878A43539A181755F509AE586D7 /* EssentialPod.xcconfig */;
+			baseConfigurationReference = 3AC12878A43539A181755F509AE586D7 /* CoconutBits.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -427,6 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EssentialPod/EssentialPod.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.CoconutBits;
 				PRODUCT_NAME = EssentialPod;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -477,7 +479,7 @@
 		};
 		BBA17F252572EFF9FFEEECBDA9A2D320 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D681ACA328A59F87396324534C0E931F /* Pods-EssentialPod_Tests.release.xcconfig */;
+			baseConfigurationReference = D681ACA328A59F87396324534C0E931F /* Pods-CoconutBits_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -498,7 +500,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.Pods-CoconutBits-Tests";
 				PRODUCT_NAME = Pods_EssentialPod_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -511,7 +513,7 @@
 		};
 		C6DCD192BDD68EE76DD0876302135B77 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A346C32BD233546F4A106A0D4B9C378 /* Pods-EssentialPod_Tests.debug.xcconfig */;
+			baseConfigurationReference = 6A346C32BD233546F4A106A0D4B9C378 /* Pods-CoconutBits_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -532,7 +534,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.Pods-CoconutBits-Tests";
 				PRODUCT_NAME = Pods_EssentialPod_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -547,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0148B68CF803241C01FCFAA4DEF9B256 /* Build configuration list for PBXNativeTarget "EssentialPod" */ = {
+		0148B68CF803241C01FCFAA4DEF9B256 /* Build configuration list for PBXNativeTarget "CoconutBits" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6856FA5E6A057B09CE079F95819B5BA2 /* Debug */,
@@ -556,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		040C2C8E2113424E426451909A0286E1 /* Build configuration list for PBXNativeTarget "Pods-EssentialPod_Tests" */ = {
+		040C2C8E2113424E426451909A0286E1 /* Build configuration list for PBXNativeTarget "Pods-CoconutBits_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6DCD192BDD68EE76DD0876302135B77 /* Debug */,

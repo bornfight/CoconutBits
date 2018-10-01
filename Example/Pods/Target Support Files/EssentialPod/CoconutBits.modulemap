@@ -1,0 +1,6 @@
+framework module CoconutBits {
+  umbrella header "CoconutBits-umbrella.h"
+
+  export *
+  module * { export * }
+}

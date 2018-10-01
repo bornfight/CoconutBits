@@ -1,6 +1,6 @@
 use_frameworks!
-target 'EssentialPod_Tests' do
-  pod 'EssentialPod', :path => '../'
+target 'CoconutBits_Tests' do
+  pod 'CoconutBits', :path => '../'
 end
 
 post_install do |installer|

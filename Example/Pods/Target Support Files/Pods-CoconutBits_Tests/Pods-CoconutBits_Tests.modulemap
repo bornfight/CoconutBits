@@ -1,0 +1,6 @@
+framework module Pods_CoconutBits_Tests {
+  umbrella header "Pods-CoconutBits_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
