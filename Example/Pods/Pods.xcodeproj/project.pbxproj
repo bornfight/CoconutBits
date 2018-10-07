@@ -12,13 +12,10 @@
 		120F82D85BC535290822CAAECA57C659 /* Instatiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D2B1C15F213829AC3CD1D97F5E5444 /* Instatiate.swift */; };
 		197E5E8B180F053BC6258DD971228DED /* ReusingAndDequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5428EC64A8C1181A4BBA50D4AD043 /* ReusingAndDequeueing.swift */; };
 		1B5FEE4E768EC7C24A0BEC08E1F2CBCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		33E2770A8F53D88BF371453D6A57D2F3 /* LockTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0664097E059C841FCADECD327A0F2796 /* LockTableView.swift */; };
 		5255F1475D5EB185C679F8D497708891 /* CoconutBits-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 723868AB53420A2BA3AB0718F29E90DF /* CoconutBits-dummy.m */; };
-		527385BBD3A41367CE2F8614799A4C30 /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EDDEF3A699A5CFBF15705C61D615AB /* Localize.swift */; };
 		5B785B3D59282E10B48F51A7AAC3CA1D /* Optional+isNilOrEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF110D867B592B3F4BBD9F38C2EDF01 /* Optional+isNilOrEmpty.swift */; };
 		6AA31BC4B13A0F87052DE7C72D4E39A3 /* Evaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D4C59D6DC2829F39063E7B343BA8FD /* Evaluation.swift */; };
 		70D4B8413AF0B16A394C3B828DEB988F /* CoconutBits-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4657861C5119E94E72AD22FF05B9169 /* CoconutBits-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70EF775CCC13B0A12CE72E45A2A73603 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2203A26CC584C57FD91049BAAC348FF7 /* Delay.swift */; };
 		7F07A3AEB712340F5E379F0F10E9CB40 /* Optional+apply.swift in Sources */ = {isa = PBXBuildFile; fileRef = A561304F7FDBF8853AF8862721155C1E /* Optional+apply.swift */; };
 		95FB2DC75E25620E8C7828A197D206C8 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB512B6D78770F61A67C9196794D5CE0 /* Rotation.swift */; };
 		A986C09EB159494EE2D368D0FCF1C9A6 /* IfSome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9995EB03B3F2F177CD6F273F934DCF5 /* IfSome.swift */; };
@@ -39,11 +36,9 @@
 
 /* Begin PBXFileReference section */
 		0118FB5F75B850457DEEAB2BCCD67BAC /* Pods-CoconutBits_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoconutBits_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0664097E059C841FCADECD327A0F2796 /* LockTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockTableView.swift; path = CoconutBits/Classes/LockTableView.swift; sourceTree = "<group>"; };
 		1433D1FC29AA4D7FA84577A2A89C5D30 /* Pods-CoconutBits_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoconutBits_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		15017BF5799E0C0A6A979623BF117B25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2180BC212848F1BAF344D98853F55CC4 /* Pods-CoconutBits_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoconutBits_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2203A26CC584C57FD91049BAAC348FF7 /* Delay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delay.swift; path = CoconutBits/Classes/Delay.swift; sourceTree = "<group>"; };
 		2886D23C5BBB79D1BB10DFC5A19E98E9 /* Pods-CoconutBits_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoconutBits_Tests-dummy.m"; sourceTree = "<group>"; };
 		2CB694F1161F1C8C41C4131D108046AB /* HexColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColor.swift; path = CoconutBits/Classes/HexColor.swift; sourceTree = "<group>"; };
 		2EF110D867B592B3F4BBD9F38C2EDF01 /* Optional+isNilOrEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+isNilOrEmpty.swift"; path = "CoconutBits/Classes/Optional+isNilOrEmpty.swift"; sourceTree = "<group>"; };
@@ -62,7 +57,6 @@
 		A200F590EA7AFEBE0C57D687BF30BC9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4657861C5119E94E72AD22FF05B9169 /* CoconutBits-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoconutBits-umbrella.h"; sourceTree = "<group>"; };
 		A561304F7FDBF8853AF8862721155C1E /* Optional+apply.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+apply.swift"; path = "CoconutBits/Classes/Optional+apply.swift"; sourceTree = "<group>"; };
-		B0EDDEF3A699A5CFBF15705C61D615AB /* Localize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Localize.swift; path = CoconutBits/Classes/Localize.swift; sourceTree = "<group>"; };
 		B7D3D3A36EFFA2A539995AD6E5A7D6A8 /* Pods-CoconutBits_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoconutBits_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BCCE63E43BE109274A7D363A3EB41C41 /* CoconutBits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoconutBits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF5428EC64A8C1181A4BBA50D4AD043 /* ReusingAndDequeueing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReusingAndDequeueing.swift; path = CoconutBits/Classes/ReusingAndDequeueing.swift; sourceTree = "<group>"; };
@@ -193,13 +187,10 @@
 			isa = PBXGroup;
 			children = (
 				CA3707EB0EF75101E9B136743D2E23C1 /* Alert.swift */,
-				2203A26CC584C57FD91049BAAC348FF7 /* Delay.swift */,
 				89D4C59D6DC2829F39063E7B343BA8FD /* Evaluation.swift */,
 				2CB694F1161F1C8C41C4131D108046AB /* HexColor.swift */,
 				E9995EB03B3F2F177CD6F273F934DCF5 /* IfSome.swift */,
 				A0D2B1C15F213829AC3CD1D97F5E5444 /* Instatiate.swift */,
-				B0EDDEF3A699A5CFBF15705C61D615AB /* Localize.swift */,
-				0664097E059C841FCADECD327A0F2796 /* LockTableView.swift */,
 				A561304F7FDBF8853AF8862721155C1E /* Optional+apply.swift */,
 				2EF110D867B592B3F4BBD9F38C2EDF01 /* Optional+isNilOrEmpty.swift */,
 				BEF5428EC64A8C1181A4BBA50D4AD043 /* ReusingAndDequeueing.swift */,
@@ -326,13 +317,10 @@
 			files = (
 				AFAA135170B8FE8FCA81102F950E423D /* Alert.swift in Sources */,
 				5255F1475D5EB185C679F8D497708891 /* CoconutBits-dummy.m in Sources */,
-				70EF775CCC13B0A12CE72E45A2A73603 /* Delay.swift in Sources */,
 				6AA31BC4B13A0F87052DE7C72D4E39A3 /* Evaluation.swift in Sources */,
 				ABA8948C5DBDCDF991F58D1680191F3C /* HexColor.swift in Sources */,
 				A986C09EB159494EE2D368D0FCF1C9A6 /* IfSome.swift in Sources */,
 				120F82D85BC535290822CAAECA57C659 /* Instatiate.swift in Sources */,
-				527385BBD3A41367CE2F8614799A4C30 /* Localize.swift in Sources */,
-				33E2770A8F53D88BF371453D6A57D2F3 /* LockTableView.swift in Sources */,
 				7F07A3AEB712340F5E379F0F10E9CB40 /* Optional+apply.swift in Sources */,
 				5B785B3D59282E10B48F51A7AAC3CA1D /* Optional+isNilOrEmpty.swift in Sources */,
 				197E5E8B180F053BC6258DD971228DED /* ReusingAndDequeueing.swift in Sources */,
