@@ -16,6 +16,7 @@
 		5B785B3D59282E10B48F51A7AAC3CA1D /* Optional+isNilOrEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF110D867B592B3F4BBD9F38C2EDF01 /* Optional+isNilOrEmpty.swift */; };
 		6AA31BC4B13A0F87052DE7C72D4E39A3 /* Evaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D4C59D6DC2829F39063E7B343BA8FD /* Evaluation.swift */; };
 		70D4B8413AF0B16A394C3B828DEB988F /* CoconutBits-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4657861C5119E94E72AD22FF05B9169 /* CoconutBits-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		758555C921A6FC50009CA5F1 /* UIViewController+ShortTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758555C821A6FC50009CA5F1 /* UIViewController+ShortTransitions.swift */; };
 		7F07A3AEB712340F5E379F0F10E9CB40 /* Optional+apply.swift in Sources */ = {isa = PBXBuildFile; fileRef = A561304F7FDBF8853AF8862721155C1E /* Optional+apply.swift */; };
 		95FB2DC75E25620E8C7828A197D206C8 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB512B6D78770F61A67C9196794D5CE0 /* Rotation.swift */; };
 		A986C09EB159494EE2D368D0FCF1C9A6 /* IfSome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9995EB03B3F2F177CD6F273F934DCF5 /* IfSome.swift */; };
@@ -47,6 +48,7 @@
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		637FFC8ACB6CC08D8BC4F4858651C996 /* Pods_CoconutBits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoconutBits_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		723868AB53420A2BA3AB0718F29E90DF /* CoconutBits-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoconutBits-dummy.m"; sourceTree = "<group>"; };
+		758555C821A6FC50009CA5F1 /* UIViewController+ShortTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShortTransitions.swift"; sourceTree = "<group>"; };
 		7D9D118E61F441B41F57259F91B02FAC /* Pods-CoconutBits_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoconutBits_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		89D4C59D6DC2829F39063E7B343BA8FD /* Evaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Evaluation.swift; path = CoconutBits/Classes/Evaluation.swift; sourceTree = "<group>"; };
 		917159E34FC9F7CA32BD5E493DD2AF65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				2EF110D867B592B3F4BBD9F38C2EDF01 /* Optional+isNilOrEmpty.swift */,
 				BEF5428EC64A8C1181A4BBA50D4AD043 /* ReusingAndDequeueing.swift */,
 				CB512B6D78770F61A67C9196794D5CE0 /* Rotation.swift */,
+				758555C821A6FC50009CA5F1 /* UIViewController+ShortTransitions.swift */,
 				C3C820CC93B7657BA05097412D77A56D /* Pod */,
 				850B4CDC8F2EC20A9CE0D6E1C0F2FB95 /* Support Files */,
 			);
@@ -324,6 +327,7 @@
 				7F07A3AEB712340F5E379F0F10E9CB40 /* Optional+apply.swift in Sources */,
 				5B785B3D59282E10B48F51A7AAC3CA1D /* Optional+isNilOrEmpty.swift in Sources */,
 				197E5E8B180F053BC6258DD971228DED /* ReusingAndDequeueing.swift in Sources */,
+				758555C921A6FC50009CA5F1 /* UIViewController+ShortTransitions.swift in Sources */,
 				95FB2DC75E25620E8C7828A197D206C8 /* Rotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
