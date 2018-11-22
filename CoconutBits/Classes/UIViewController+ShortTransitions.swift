@@ -6,3 +6,24 @@
 //
 
 import Foundation
+import UIKit
+
+extension UIViewController {
+    
+    func push(controller: UIViewController) {
+        navigationController?.pushViewController(controller, animated: true)
+    }
+    
+    func pushNonAnimated(controller: UIViewController) {
+        navigationController?.pushViewController(controller, animated: false)
+    }
+    
+    func presentAnimated(controller: UIViewController) {
+        present(controller, animated: true, completion: nil)
+    }
+    
+    func presentNonAnimated(controller: UIViewController) {
+        present(controller, animated: false, completion: nil)
+    }
+    
+}
