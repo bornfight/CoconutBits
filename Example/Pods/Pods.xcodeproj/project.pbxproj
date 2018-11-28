@@ -12,6 +12,7 @@
 		120F82D85BC535290822CAAECA57C659 /* Instatiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D2B1C15F213829AC3CD1D97F5E5444 /* Instatiate.swift */; };
 		197E5E8B180F053BC6258DD971228DED /* ReusingAndDequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5428EC64A8C1181A4BBA50D4AD043 /* ReusingAndDequeueing.swift */; };
 		1B5FEE4E768EC7C24A0BEC08E1F2CBCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3116127721AEC22B00005866 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3116127621AEC22A00005866 /* Identifiable.swift */; };
 		5255F1475D5EB185C679F8D497708891 /* CoconutBits-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 723868AB53420A2BA3AB0718F29E90DF /* CoconutBits-dummy.m */; };
 		5B785B3D59282E10B48F51A7AAC3CA1D /* Optional+isNilOrEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF110D867B592B3F4BBD9F38C2EDF01 /* Optional+isNilOrEmpty.swift */; };
 		6AA31BC4B13A0F87052DE7C72D4E39A3 /* Evaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D4C59D6DC2829F39063E7B343BA8FD /* Evaluation.swift */; };
@@ -43,6 +44,7 @@
 		2886D23C5BBB79D1BB10DFC5A19E98E9 /* Pods-CoconutBits_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoconutBits_Tests-dummy.m"; sourceTree = "<group>"; };
 		2CB694F1161F1C8C41C4131D108046AB /* HexColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColor.swift; path = CoconutBits/Classes/HexColor.swift; sourceTree = "<group>"; };
 		2EF110D867B592B3F4BBD9F38C2EDF01 /* Optional+isNilOrEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+isNilOrEmpty.swift"; path = "CoconutBits/Classes/Optional+isNilOrEmpty.swift"; sourceTree = "<group>"; };
+		3116127621AEC22A00005866 /* Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
 		32C57C8360CB86171D8C667B66661A9E /* CoconutBits.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CoconutBits.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		531848FB6EF1516846F815A3969D009D /* Pods-CoconutBits_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoconutBits_Tests-resources.sh"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -190,6 +192,7 @@
 			children = (
 				CA3707EB0EF75101E9B136743D2E23C1 /* Alert.swift */,
 				89D4C59D6DC2829F39063E7B343BA8FD /* Evaluation.swift */,
+				3116127621AEC22A00005866 /* Identifiable.swift */,
 				2CB694F1161F1C8C41C4131D108046AB /* HexColor.swift */,
 				E9995EB03B3F2F177CD6F273F934DCF5 /* IfSome.swift */,
 				A0D2B1C15F213829AC3CD1D97F5E5444 /* Instatiate.swift */,
@@ -319,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFAA135170B8FE8FCA81102F950E423D /* Alert.swift in Sources */,
+				3116127721AEC22B00005866 /* Identifiable.swift in Sources */,
 				5255F1475D5EB185C679F8D497708891 /* CoconutBits-dummy.m in Sources */,
 				6AA31BC4B13A0F87052DE7C72D4E39A3 /* Evaluation.swift in Sources */,
 				ABA8948C5DBDCDF991F58D1680191F3C /* HexColor.swift in Sources */,
