@@ -16,3 +16,5 @@ public extension Identifiable {
         return String(describing: Self.self)
     }
 }
+
+extension UIView: Identifiable { }
