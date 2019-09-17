@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import MapKit
 
 
 public extension UITableViewCell {
@@ -25,6 +26,12 @@ public extension UICollectionViewCell {
         return String(describing: self)
     }
     static var nibName: String {
+        return String(describing: self)
+    }
+}
+
+public extension MKAnnotationView {
+    static var defaultReuseIdentifier: String {
         return String(describing: self)
     }
 }
@@ -70,5 +77,15 @@ public extension UICollectionView {
         }
         
         return cell
+    }
+}
+
+public extension MKMapView {
+    func dequeueReusableAnnotationView<T: MKAnnotationView>() -> T {
+        guard let annotationView = self.dequeueReusableAnnotationView(withIdentifier: T.defaultReuseIdentifier) as? T else {
+            fatalError("Could not dequeue annotation view with identifier: \(T.defaultReuseIdentifier)")
+        }
+        
+        return annotationView
     }
 }
