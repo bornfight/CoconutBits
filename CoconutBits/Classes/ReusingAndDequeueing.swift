@@ -81,7 +81,7 @@ public extension UICollectionView {
 }
 
 public extension MKMapView {
-    func dequeueReusableAnnotationView<T: MKAnnotationView>() -> T {
+    func dequeueReusableAnnotationView<T: MKAnnotationView>() -> T? {
         guard let annotationView = self.dequeueReusableAnnotationView(withIdentifier: T.defaultReuseIdentifier) as? T else {
             fatalError("Could not dequeue annotation view with identifier: \(T.defaultReuseIdentifier)")
         }
