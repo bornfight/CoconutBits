@@ -14,9 +14,3 @@ public extension NibInstantiable where Self: UIViewController {
         .init(nibName: String(describing: self), bundle: nil)
     }
 }
-
-public extension NibInstantiable where Self: UIView {
-    static func instantied() -> Self {
-        .init(nibName: String(describing: self), bundle: nil)
-    }
-}
