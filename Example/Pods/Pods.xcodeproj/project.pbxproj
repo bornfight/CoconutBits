@@ -10,8 +10,9 @@
 		04EC6E1DF4D46F7E35CAED6513B3664B /* Pods-CoconutBits_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886D23C5BBB79D1BB10DFC5A19E98E9 /* Pods-CoconutBits_Tests-dummy.m */; };
 		0F15BC46689ADC77B0FE0D5D38001279 /* Pods-CoconutBits_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0489F3970C7CF01DC1747FDAFF94284 /* Pods-CoconutBits_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		120F82D85BC535290822CAAECA57C659 /* Instatiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D2B1C15F213829AC3CD1D97F5E5444 /* Instatiate.swift */; };
-		197E5E8B180F053BC6258DD971228DED /* ReusingAndDequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5428EC64A8C1181A4BBA50D4AD043 /* ReusingAndDequeueing.swift */; };
+		197E5E8B180F053BC6258DD971228DED /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5428EC64A8C1181A4BBA50D4AD043 /* Debounce.swift */; };
 		1B5FEE4E768EC7C24A0BEC08E1F2CBCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		314FDDB323852BC00071FD75 /* NibInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314FDDB223852BBF0071FD75 /* NibInstantiable.swift */; };
 		3185C19121AFE486005982C2 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3185C19021AFE486005982C2 /* Identifiable.swift */; };
 		5255F1475D5EB185C679F8D497708891 /* CoconutBits-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 723868AB53420A2BA3AB0718F29E90DF /* CoconutBits-dummy.m */; };
 		5B785B3D59282E10B48F51A7AAC3CA1D /* Optional+isNilOrEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF110D867B592B3F4BBD9F38C2EDF01 /* Optional+isNilOrEmpty.swift */; };
@@ -44,6 +45,7 @@
 		2886D23C5BBB79D1BB10DFC5A19E98E9 /* Pods-CoconutBits_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoconutBits_Tests-dummy.m"; sourceTree = "<group>"; };
 		2CB694F1161F1C8C41C4131D108046AB /* HexColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColor.swift; path = CoconutBits/Classes/HexColor.swift; sourceTree = "<group>"; };
 		2EF110D867B592B3F4BBD9F38C2EDF01 /* Optional+isNilOrEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+isNilOrEmpty.swift"; path = "CoconutBits/Classes/Optional+isNilOrEmpty.swift"; sourceTree = "<group>"; };
+		314FDDB223852BBF0071FD75 /* NibInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NibInstantiable.swift; path = CoconutBits/Classes/NibInstantiable.swift; sourceTree = "<group>"; };
 		3185C19021AFE486005982C2 /* Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Identifiable.swift; path = CoconutBits/Classes/Identifiable.swift; sourceTree = "<group>"; };
 		32C57C8360CB86171D8C667B66661A9E /* CoconutBits.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CoconutBits.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		531848FB6EF1516846F815A3969D009D /* Pods-CoconutBits_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoconutBits_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -63,7 +65,7 @@
 		A561304F7FDBF8853AF8862721155C1E /* Optional+apply.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+apply.swift"; path = "CoconutBits/Classes/Optional+apply.swift"; sourceTree = "<group>"; };
 		B7D3D3A36EFFA2A539995AD6E5A7D6A8 /* Pods-CoconutBits_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoconutBits_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BCCE63E43BE109274A7D363A3EB41C41 /* CoconutBits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoconutBits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEF5428EC64A8C1181A4BBA50D4AD043 /* ReusingAndDequeueing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReusingAndDequeueing.swift; path = CoconutBits/Classes/ReusingAndDequeueing.swift; sourceTree = "<group>"; };
+		BEF5428EC64A8C1181A4BBA50D4AD043 /* Debounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debounce.swift; path = CoconutBits/Classes/Debounce.swift; sourceTree = "<group>"; };
 		CA3707EB0EF75101E9B136743D2E23C1 /* Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = CoconutBits/Classes/Alert.swift; sourceTree = "<group>"; };
 		CB512B6D78770F61A67C9196794D5CE0 /* Rotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rotation.swift; path = CoconutBits/Classes/Rotation.swift; sourceTree = "<group>"; };
 		E9995EB03B3F2F177CD6F273F934DCF5 /* IfSome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IfSome.swift; path = CoconutBits/Classes/IfSome.swift; sourceTree = "<group>"; };
@@ -198,9 +200,10 @@
 				A0D2B1C15F213829AC3CD1D97F5E5444 /* Instatiate.swift */,
 				A561304F7FDBF8853AF8862721155C1E /* Optional+apply.swift */,
 				2EF110D867B592B3F4BBD9F38C2EDF01 /* Optional+isNilOrEmpty.swift */,
-				BEF5428EC64A8C1181A4BBA50D4AD043 /* ReusingAndDequeueing.swift */,
+				BEF5428EC64A8C1181A4BBA50D4AD043 /* Debounce.swift */,
 				CB512B6D78770F61A67C9196794D5CE0 /* Rotation.swift */,
 				758555CA21A6FE69009CA5F1 /* UIViewController+ShortTransitions.swift */,
+				314FDDB223852BBF0071FD75 /* NibInstantiable.swift */,
 				C3C820CC93B7657BA05097412D77A56D /* Pod */,
 				850B4CDC8F2EC20A9CE0D6E1C0F2FB95 /* Support Files */,
 			);
@@ -286,6 +289,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -330,8 +334,9 @@
 				120F82D85BC535290822CAAECA57C659 /* Instatiate.swift in Sources */,
 				7F07A3AEB712340F5E379F0F10E9CB40 /* Optional+apply.swift in Sources */,
 				5B785B3D59282E10B48F51A7AAC3CA1D /* Optional+isNilOrEmpty.swift in Sources */,
-				197E5E8B180F053BC6258DD971228DED /* ReusingAndDequeueing.swift in Sources */,
+				197E5E8B180F053BC6258DD971228DED /* Debounce.swift in Sources */,
 				758555CB21A6FE69009CA5F1 /* UIViewController+ShortTransitions.swift in Sources */,
+				314FDDB323852BC00071FD75 /* NibInstantiable.swift in Sources */,
 				95FB2DC75E25620E8C7828A197D206C8 /* Rotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
