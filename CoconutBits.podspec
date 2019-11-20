@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CoconutBits'
-  s.version          = '0.4.1'
+  s.version          = '0.4.2'
   s.summary          = 'A short description of CoconutBits.'
 
 # This description is used to generate tags and improve search results.
