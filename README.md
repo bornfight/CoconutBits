@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/CoconutBits.svg?style=flat)](http://cocoapods.org/pods/CoconutBits)
 [![Platform](https://img.shields.io/cocoapods/p/CoconutBits.svg?style=flat)](http://cocoapods.org/pods/CoconutBits)
 
+This repository contains extensions and classes that make common iOS scenarios easier and are used across most of our projects at Bornfight.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
